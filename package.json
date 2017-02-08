@@ -1,0 +1,36 @@
+{
+ "private": true,
+ "name": "iro",
+ "displayName": "Iro",
+ "description": "Iro theme for Visual Studio Code",
+ "version": "0.0.1",
+ "publisher": "zessx",
+ "license": "GPL-3.0",
+ "bugs": {
+  "url": "https://github.com/zessx/iro-vscode/issues"
+ },
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/zessx/iro-vscode.git"
+ },
+ "engines": {
+  "vscode": "^1.9.0"
+ },
+ "categories": [
+  "Themes"
+ ],
+ "contributes": {
+  "themes": [
+   {
+    "label": "Iro Dark",
+    "path": "./themes/iro-dark.json",
+    "uiTheme": "vs-dark"
+   },
+   {
+    "label": "Iro Darl Saturate",
+    "path": "./themes/iro-dark-saturate.json",
+    "uiTheme": "vs-dark"
+   }
+  ]
+ }
+}
